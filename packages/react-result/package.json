@@ -1,0 +1,20 @@
+{
+  "name": "react-result",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "watch \"tsc\" ../core/src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "~5.2.2",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "mitosis": "workspace:*",
+    "react": "18.2.0"
+  }
+}
