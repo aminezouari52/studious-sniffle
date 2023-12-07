@@ -5,19 +5,15 @@
   "targetDefaults": {
     "build": {
       "inputs": ["noMarkdown", "^noMarkdown"],
-      "dependsOn": ["^build"],
-      "cache": true
+      "dependsOn": ["^build"]
     },
     "dev": {
-      "dependsOn": ["^build"],
-      "cache": true
+      "dependsOn": ["^build"]
     },
     "test": {
-      "inputs": ["noMarkdown", "^noMarkdown"],
-      "cache": true
+      "inputs": ["noMarkdown", "^noMarkdown"]
     },
     "@nx/vite:test": {
-      "cache": true,
       "inputs": ["default", "^default"]
     },
     "lint": {
@@ -32,7 +28,6 @@
       "inputs": ["default", "^default"]
     },
     "build-storybook": {
-      "cache": true,
       "inputs": [
         "default",
         "^default",

@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "watch \"tsc\" ../core/src"
+    "build": "watch \"nx build mitosis && tsc\" ../core/src"
   },
   "keywords": [],
   "author": "",
